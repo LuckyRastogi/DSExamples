@@ -1,21 +1,13 @@
-class Node {
-    int data;
-    Node next;
-    Node(){
-    }
-    Node(int data, Node next){
-        this.data = data;
-        this.next = next;
-    }
-}
+import node.*;
+
 public class CreateLinkedList {
     public static void main(String args[]){
-        Node node = new Node();
+        node.Node node = new node.Node(1);
         for(int i=1; i<=5; i++){
-            Node n = new Node(i, node);
+            node.Node n = new node.Node(1);
         }
         for(int i=1; i<=5; i++){
-            Node n = new Node(i, node);
+            node.Node n = new node.Node(1);
         }
 
     }
