@@ -19,6 +19,7 @@ public class SumOfSubArray {
         int[] array = new int[]{ 1,2,3,7,5 };
         int sumOfSubArray = 12;
         a.printSumOfSubArray(sumOfSubArray, array);
+		// testing
     }
 
 }
